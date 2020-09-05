@@ -1,0 +1,27 @@
+.App {
+  /* background-color: #282c34; */
+  color: white;
+}
+.course{
+  display: flex;
+}
+@media (max-width: 770px){
+  .course{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .course-details{
+    margin: 0 auto !important;
+    width: unset;
+  }
+  .course-cart{
+    width: unset !important;
+  }
+}
+.course-details{
+  width: 80%;
+}
+.course-cart{
+  width: 30%;
+}
